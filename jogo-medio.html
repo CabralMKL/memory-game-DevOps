@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Memory Game</title>
+  <link href="jogo-medio.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="title" class="navbar">
+    <a href="index.html">  
+      <div class="game-name">MEM🤔JI</div>
+    </a>
+    <div>🔹</div>
+    <div id="time">⌛30</div>
+  </div>
+
+  <div class="mom-div">
+    <div class="card" data-emoji="🥱">MEMOJI</div>
+    <div class="card" data-emoji="🤔">MEMOJI</div>
+    <div class="card" data-emoji="🥱">MEMOJI</div>
+    <div class="card" data-emoji="🤐">MEMOJI</div>
+    <div class="card" data-emoji="🤔">MEMOJI</div>
+    <div class="card" data-emoji="🤐">MEMOJI</div>
+  </div>
+
+  <div id="game-over-modal" class="modal">
+    <div class="modal-content">
+      <h2 class="mensagem">💀 Game Over! 💀</h2>
+      <p class="mensagem">Você perdeu!</p>
+      <button id="restart-button" class="customizar-botao">Jogar Novamente</button>
+      <button id="menu-button" class="customizar-botao">Voltar ao Menu</button>
+    </div>
+  </div>
+
+  <div id="congratulations-modal" class="modal">
+    <div class="modal-content">
+      <h2 class="mensagem">🎉 Congratulations! 🎉</h2>
+      <p class="mensagem">Você venceu!</p>
+      <button id="play-again-button" class="customizar-botao">Jogar Novamente</button>
+      <button id="menu-button2" class="customizar-botao">Voltar ao Menu</button>
+    </div>
+  </div>
+
+  <button id="start-button">Começar</button>
+
+  <script src="jogo-medio.js"></script>
+</body>
+
+</html>

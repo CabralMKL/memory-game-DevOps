@@ -1,0 +1,72 @@
+html{
+  height: 100%;
+  width: 100%;
+  background-image: url('fundo-roxo-emoji.jpg');
+  background-size: cover;
+  background-color: #8552af;
+  background-position: center center; 
+}
+
+.game-name{
+  font-family: "Tac One", sans-serif;
+  align-items: center;
+}
+
+
+.newGame{
+  background-color: #333;
+  font-size: 22vw;
+  border-radius: 20px;
+  border: solid 5px #333;
+}
+
+.newGame{
+  width: 95%;
+  height: 8vh;
+  padding-top: 20px;
+  color: white;
+  font-size: 10vw;
+  font-family: sans-serif;
+  }
+
+.score{
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu{
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 95%;
+  margin-top: 30%;
+  height: 50vh;
+  background-color: #333;
+}
+
+.mode{
+  margin-top: 30px;
+  margin-left: 5%;
+  height: 15%;
+  width: 90%;
+  border-radius: 40px;
+  background-color: #555;
+  font-size: 7vw;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+h1{
+  bottom: 5px;
+  padding-top: 15%;
+  color: white;
+  text-align: center;
+}
